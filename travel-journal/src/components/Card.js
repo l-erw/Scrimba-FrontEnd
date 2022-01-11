@@ -2,7 +2,8 @@ import React from "react"
 import MapMarker from "../map-marker.png"
 
 export default function Card() {
-    <div className="card">
+    return (
+        <div className="card">
         <img src={MapMarker} alt="map marker dot"/>
         <div className="card--data">
             <img src="" alt=""/>
@@ -16,4 +17,6 @@ export default function Card() {
 
         </div>
     </div>
+    )
+
 }

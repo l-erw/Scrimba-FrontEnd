@@ -1,10 +1,6 @@
 body {
   margin: 0;
-  width: 500px;
-  border: red 2px dotted;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -14,9 +10,15 @@ code {
     monospace;
 }
 
-h1 {
-  font-size: 40px;
-  color: greenyellow;
+nav {
+  height: 55px;
+  color: #f55a5a;
+}
+
+.nav--header {
+  font-size: 15px;
+  font-weight: 500;
+  color: black;
 }
 
 .card {
