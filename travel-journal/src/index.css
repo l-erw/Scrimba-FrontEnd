@@ -12,16 +12,26 @@ code {
 
 .navbar {
   height: 55px;
-  color: #f55a5a;
+  background-color: #f55a5a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav--header {
   font-size: 15px;
   font-weight: 500;
-  color: grey;
+  color: #fff;
+  margin-left: 7px;
 }
 
 .card {
   width: 450px;
   border: 2px green solid;
+}
+
+.card--image {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
 }
