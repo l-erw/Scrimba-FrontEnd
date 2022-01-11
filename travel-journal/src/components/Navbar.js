@@ -3,6 +3,6 @@ import React from "react"
 export default function Navbar() {
     <nav>
         <img src="" alt="globe"/>
-        <p>my travel journal</p>
+        <h1 className="nav--header">my travel journal.</h1>
     </nav>
 }
