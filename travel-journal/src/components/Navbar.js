@@ -1,5 +1,8 @@
 import React from "react"
 
 export default function Navbar() {
-    <p>Testing Testing</p>
+    <nav>
+        <img src="" alt="globe"/>
+        <p>my travel journal</p>
+    </nav>
 }
