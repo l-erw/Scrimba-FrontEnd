@@ -10,6 +10,10 @@ code {
     monospace;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .navbar {
   height: 55px;
   background-color: #f55a5a;
@@ -25,20 +29,22 @@ code {
   margin-left: 7px;
 }
 
-.section {
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+section {
+  padding: 20px;
 }
 
 .card {
-  width: 450px;
-  border: 2px green solid;
+  width: 515px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 50px;
+  margin: 0 auto;
+  font-size: 10px;
+}
+
+.card > h2 {
+  font-size: 50px;
+  margin-top: 7px;
 }
 
 .card--image {
@@ -49,21 +55,49 @@ code {
 
 .card--data {
   display: flex;
-  /* border: 2px fuchsia dashed; */
-  justify-content: center;
+  justify-content: left;
   align-items: center;
+
 }
 
 .card--data > img {
-  height: 7px;
+  height: 10px;
+}
+
+.card--location {
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin: 0 12px 0 4px;
+
+}
+
+.card--link {
+  color: #918E9B;
+
 }
 
 .card--content {
   display: flex;
   flex-direction: column;
-  /* border: 1px orange dotted */
+}
+
+.card--content > h2 {
+  font-size: 25px;
+  margin: 0;
 }
 
 .layout-test {
   width: 100%;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.card--description {
+  width: 326px;
+  margin-top: 9px;
+}
+
+.card--dates {
+  margin-bottom: 0px;
+  font-weight: 700;
 }

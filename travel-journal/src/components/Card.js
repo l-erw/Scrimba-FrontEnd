@@ -13,14 +13,15 @@ export default function Card() {
                 <div className="layout-test">
                     <div className="card--data">
                         <img src={MapMarker} alt="map marker dot"/>
-                        <p>Location</p>
-                        <a href="maps.google.com">View on Google Maps</a>
+                        <p className="card--location">Japan</p>
+                        <a className="card--link" href="maps.google.com">View on Google Maps</a>
                     </div>
                     
                     <div className="card--content">
-                        <h2>Card Title</h2>
-                        <p>Card dates</p>
-                        <p>Card description</p>
+                        <h2>Mount Fuji</h2>
+                        <p className="card--dates">12 Jan, 2021 - 24 Jan, 2021</p>
+                        <p className="card--description">Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji 
+                            is the single most popular tourist site in Japan, for both Japanese and foreign tourists.</p>
                     </div>
                 </div>
             </div>
