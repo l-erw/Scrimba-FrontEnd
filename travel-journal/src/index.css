@@ -31,6 +31,7 @@ code {
 
 section {
   padding: 20px;
+  
 }
 
 .card {
@@ -40,6 +41,8 @@ section {
   align-items: center;
   margin: 0 auto;
   font-size: 10px;
+  border-bottom: #F5F5F5 solid 1px;
+  padding: 20px;
 }
 
 .card > h2 {
