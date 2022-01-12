@@ -5,11 +5,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -30,8 +25,7 @@ code {
 }
 
 section {
-  padding: 20px;
-  
+  padding: 10px;
 }
 
 .card {
@@ -45,11 +39,6 @@ section {
   padding: 20px;
 }
 
-.card > h2 {
-  font-size: 50px;
-  margin-top: 7px;
-}
-
 .card--image {
   width: 125px;
   height: 168px;
@@ -61,7 +50,6 @@ section {
   display: flex;
   justify-content: left;
   align-items: center;
-
 }
 
 .card--data > img {
@@ -72,25 +60,23 @@ section {
   letter-spacing: 1.5px;
   text-transform: uppercase;
   margin: 0 12px 0 4px;
-
 }
 
 .card--link {
   color: #918E9B;
-
 }
 
-.card--content {
+.card--main-content {
   display: flex;
   flex-direction: column;
 }
 
-.card--content > h2 {
+.card--main-content > h2 {
   font-size: 25px;
   margin: 0;
 }
 
-.layout-test {
+.card--text{
   width: 100%;
   margin-left: 20px;
   text-align: left;
