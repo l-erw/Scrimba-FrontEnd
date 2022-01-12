@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.header {
+  background: linear-gradient(45deg, rgba(103,34,128,1) 0%, rgba(166,38,211,1) 100%);
+  height: 65px;
+  color: white;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 20px 60px;
+}
+
+.header > h1 {
+  margin-right: auto;
+  margin-left: 7px;
+  font-size: 1.25rem;
+}
+
+.header > h3 {
+  font-weight: 500;
+  font-size: 0.75rem;
+}
+
+.header > img {
+  width: 31px;
+  height: 26px;
+}
+
+form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 480px;
+}
+
+form > input {
+  margin-top: 36px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+}
+
+.form--btn {
+  border: none;
+  border-radius: 5px;
+  font-family: inherit;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  background: linear-gradient(45deg, rgba(103,34,128,1) 0%, rgba(166,38,211,1) 100%);
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.meme--placeholder {
+  margin-top: 36px;
+  width: 480px;
+  height: 270px;
+  border: 2px dotted black;
+}
