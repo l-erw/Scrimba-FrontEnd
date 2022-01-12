@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 0 auto;
   font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -25,13 +25,45 @@ code {
   margin-left: 7px;
 }
 
+.section {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .card {
   width: 450px;
   border: 2px green solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
 }
 
 .card--image {
   width: 125px;
   height: 168px;
   border-radius: 5px;
+}
+
+.card--data {
+  display: flex;
+  /* border: 2px fuchsia dashed; */
+  justify-content: center;
+  align-items: center;
+}
+
+.card--data > img {
+  height: 7px;
+}
+
+.card--content {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px orange dotted */
+}
+
+.layout-test {
+  width: 100%;
 }
