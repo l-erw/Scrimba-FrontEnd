@@ -54,6 +54,7 @@ section {
   width: 125px;
   height: 168px;
   border-radius: 5px;
+  object-fit: cover;
 }
 
 .card--data {

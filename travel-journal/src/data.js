@@ -18,7 +18,7 @@ export default [
     startDate: "20 Sept, 2019",
     endDate: "22 Sept, 2019",
     description: "Providence is the capital city of the U.S. state of Rhode Island. It's home to Brown University and the Rhode Island School of Design, whose RISD Museum displays American art and silver. Nearby, 18th- and 19th-century homes line the streets of College Hill.",
-    imageUrl: "https://unsplash.com/photos/t_ksiy4ZFa0"
+    image: "Providence.png"
 }
 ,
 {
@@ -29,7 +29,7 @@ export default [
     startDate: "23 Sept, 2019",
     endDate: "26 Sept, 2019",
     description: "New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. At its core is Manhattan, a densely populated borough that’s among the world’s major commercial, financial and cultural centers. Its iconic sites include skyscrapers such as the Empire State Building and sprawling Central Park.",
-    imageUrl: "https://unsplash.com/photos/Y84-eo8drzk"
+    image: "New-York.png"
 }
 
 ]

@@ -1,13 +1,15 @@
 import React from "react"
 import MapMarker from "../map-marker.png"
-import Seattle from "../images/Seattle.png"
+// import Seattle from "../images/Seattle.png"
+// import Providence from "../images/Providence.png"
+// import NewYork from "../images/New-York.png"
 
 export default function Card(props) {
     return (
         <section>
             <div className="card">
                 <div>
-                    <img className="card--image" src={`./images/${props.item.image}`} alt={props.item.title}/>
+                    <img className="card--image" src={`../images/${props.item.image}`} alt={props.item.title}/>
                 </div>
             
                 <div className="layout-test">
@@ -28,3 +30,6 @@ export default function Card(props) {
     )
 
 }
+
+
+// {`../images/${props.item.coverImg}`} 
