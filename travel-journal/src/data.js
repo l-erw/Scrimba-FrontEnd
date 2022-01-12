@@ -7,7 +7,7 @@ export default [
     startDate: "15 Sept, 2019",
     endDate: "19 Sept, 2019",
     description: "Seattle, a city on Puget Sound in the Pacific Northwest, is surrounded by water, mountains and evergreen forests, and contains thousands of acres of parkland. The futuristic Space Needle, a 1962 World’s Fair legacy, is its most iconic landmark.",
-    imageUrl: "https://unsplash.com/photos/QfhbK2pY0Ao"
+    image: "Seattle.png"
 }
 ,
 {
