@@ -5,6 +5,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .header {
   background: linear-gradient(45deg, rgba(103,34,128,1) 0%, rgba(166,38,211,1) 100%);
   height: 65px;
@@ -31,21 +35,26 @@ body {
   height: 26px;
 }
 
+main {
+  margin-top: 36px;
+}
+
 form {
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
   width: 480px;
 }
 
 form > input {
-  margin-top: 36px;
-  height: 35px;
   border-radius: 5px;
   border: 1px solid #D5D4D8;
+  font-family: inherit;
 }
 
 .form--btn {
+  grid-column: 1 / -1;
   border: none;
   border-radius: 5px;
   font-family: inherit;
@@ -53,8 +62,6 @@ form > input {
   font-weight: bold;
   font-size: 1rem;
   background: linear-gradient(45deg, rgba(103,34,128,1) 0%, rgba(166,38,211,1) 100%);
-  padding: 10px;
-  margin-top: 15px;
 }
 
 .meme--placeholder {
